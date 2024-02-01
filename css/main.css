@@ -63,12 +63,18 @@ p.content {
 }
 
 /*  ABOUT ME  */
-div.linked {
-    margin: 100px;
+h1.linked {
+    width: 25%;
+    margin: 50px 20px 20px 70px;
+    padding: 30px 50px;
+}
+div.content {
+    margin: 50px 20px 20px 70px;
     padding: 20px;
     width: 55%;
     font-size: 17px;
 }
+
 
 
 /*  ALL PROJECT  */
