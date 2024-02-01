@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding:0px;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto;
+    background-color:  #D8C3A5;
+    background-image: url("../images/pexels-tim-mossholder-1764702-.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; 
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.nav_links {
+    background-color: rgb(36, 36, 88);
+    height: 3em;
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    position: relative; 
+    top: 0; 
+    right: 0;
+    margin-left: auto;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%); */
+}
+
+.nav_link {
+    color: white;
+    font-size: 22px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+/* top and bottom | left and right      
+   top | left and right | bottom     
+   top | right | bottom | left */
+
+/*  HOME  */
+.main {
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 30px;
+}
+h1.main { 
+    margin: 50px 20px 20px 70px;
+    padding: 30px 50px;
+    font-size: 50px;
+    width: 25%;
+}
+
+p.main {
+    margin: 50px 20px 20px 70px;
+    font-size: 17px;
+    line-height: 26px;
+    padding: 30px;
+    width: 50%;
+
+}
+
+/*  ABOUT ME  */
+div.linked {
+    margin: 100px;
+    padding: 20px;
+    width: 55%;
+    font-size: 17px;
+}
+
+
+/*  ALL PROJECT  */
+
