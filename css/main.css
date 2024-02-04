@@ -89,6 +89,7 @@ h1.projects {
 }
 
 div.projects {
+    width: 75%;
     margin: 50px;
     padding: 30px 50px 20px 20px;
 }
@@ -96,7 +97,7 @@ div.projects {
 .project {
     display: flex;
     align-items: flex-start; 
-    margin-bottom: 30px; 
+    margin-bottom: 50px; 
     width: 100%;
 }
 .project-image {
