@@ -45,14 +45,7 @@ body {
     background-color: rgba(240, 248, 255, 0.5);
     border-radius: 30px;
 }
-h1.content { 
-    margin: 50px 20px 20px 70px;
-    padding: 30px 50px;
-    font-size: 50px;
-}
-h1.index {
-    width: 25%;
-}
+
 p.content {
     margin: 50px 20px 20px 70px;
     font-size: 17px;
@@ -63,11 +56,6 @@ p.content {
 }
 
 /*  ABOUT ME  */
-h1.linked {
-    width: 25%;
-    margin: 50px 20px 20px 70px;
-    padding: 30px 50px;
-}
 div.content {
     margin: 50px 20px 20px 70px;
     padding: 20px;
@@ -78,7 +66,7 @@ div.content {
 
 
 /*  ALL PROJECT  */
-h1.projects {
+h1 {
     background-color: rgba(240, 248, 255, 0.5);
     border-radius: 30px;
     font-size: 50px;
@@ -90,7 +78,7 @@ h1.projects {
 
 div.projects {
     width: 75%;
-    margin: 50px;
+    margin: 50px 20px 20px 70px;
     padding: 30px 50px 20px 20px;
 }
 
@@ -110,7 +98,7 @@ div.projects {
 .project-info {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;  /*  expand and take up available space */
+    flex-grow: 1;  /*expand and take up available space */
     width: auto;
 }
 .project-info h2 {
@@ -131,4 +119,58 @@ div.projects {
 }
 .project-description {
     margin-top: 10px; 
+}
+
+
+/*  Mobile  */
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .nav_links {
+        width: 100%; 
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .nav_link {
+        font-size: 18px; 
+    }
+
+    .content, .projects, div.content {
+        margin: 20px; 
+        width: auto; 
+        padding: 15px; 
+    }
+
+    h1.content, h1.projects, h1.index {
+        font-size: 32px; 
+        margin: 20px; 
+        padding: 15px; 
+    }
+
+    p.content, .project-description {
+        font-size: 15px; 
+    }
+
+    .project {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .project-image {
+        width: 90%; 
+        margin: 0 0 20px 0; /
+    }
+
+    .project-info, .title-date {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .project-info h2, .project-date {
+        width: auto; 
+    }
 }
