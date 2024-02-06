@@ -102,6 +102,7 @@ div.projects {
     width: auto;
 }
 .project-info h2 {
+    font-size: 28px; 
     margin: 0; 
     width: 40%;
 }
