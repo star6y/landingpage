@@ -120,6 +120,9 @@ div.projects {
 .project-description {
     margin-top: 10px; 
 }
+.needs-work {
+    font-weight: bold;
+}
 
 
 /*  Mobile  */
