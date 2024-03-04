@@ -113,6 +113,9 @@ div.projects {
     justify-content: space-between; 
     width: 100%;
 }
+.title-date h2 {
+    width: auto;
+}
 .project-date {
     margin-left: auto; 
     white-space: nowrap; 
@@ -124,7 +127,21 @@ div.projects {
 .needs-work {
     font-weight: bold;
 }
+.content-section p {
+    margin-bottom: 0; 
+    font-weight: bold;
+    font-size: 16px;
+}
 
+.ul-list {
+    margin-top: 0; 
+    padding-left: 20px; 
+}
+
+.project-content {
+    background-color: rgba(240, 248, 255, 0.7);
+    border-radius: 30px;
+}
 
 /*  Mobile  */
 
@@ -165,16 +182,31 @@ div.projects {
     }
 
     .project-image {
+        display: block; 
         width: 90%; 
-        margin: 0 0 20px 0; /
+        margin: 20px auto;
+        /* margin: 0 0 20px 0;  */
     }
 
     .project-info, .title-date {
         width: 100%; 
-        text-align: center; 
     }
 
+    .title-date {
+        flex-direction: column;
+        
+    }
     .project-info h2, .project-date {
-        width: auto; 
+        width: 100%; 
+        display: block;
+        text-align: center; 
+    }
+    /* .project-info h2 {
+       
+    } */
+
+    .project-date {
+        margin-top: 10px;
+        align-items: flex-end; 
     }
 }
